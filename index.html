@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+           
+        }
+
+        .card{
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 1px -1px 8px -1px rgba(0,0,0,0.64);
+            width: 200px;
+            margin: 20px;
+            position: absolute;
+            top: 0;
+            
+        }
+        .image{
+            border-bottom: 1px solid gray;
+            height: 232px
+        }
+        img {
+
+            height: 260px;
+            width: 200px;      
+        }
+        .text{
+ 
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            padding: 10px;
+            
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f4f4f4 ;
+            font-size: 24px;
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+   
+        .fa-solid{
+    
+            position: absolute;
+            font-size: 20px;
+            width: 10%;
+            left: 5px;
+            top: 5px;
+
+        }
+        </style>
+</head>
+<body>
+    
+        <div class="card">
+            <div class="image">
+                <img src="./pic/human-man-10.svg" alt="img" >
+                <i class="fa-solid fa-xmark" style="color: gray;" ></i>
+            </div>
+            <p>7</p>
+
+            <div class="text">
+                <h3>A.Rudiger</h3>
+            </div>         
+         </div>
+    
+</body>
+</html>
